@@ -1,0 +1,144 @@
+body
+{
+	font-size:17px;
+	color: #fff;
+	background: #123456; 
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+	background-color: #238765;
+	border-radius: 0;
+	border: 0;
+	line-height: 100px;
+}
+.navbar-brand
+{
+	padding-top: 20px;
+}
+.navbar-brand h1
+{
+	font-family: "lora", serif;
+ 	color:#290011;
+ 	font-size: 1.5em;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	text-shadow: 2px 2px 2px #321;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	line-height: .75;
+}
+.navbar-header a:hover, .navbar-brand a:focus
+{
+	color: #000;
+	text-decoration: none;
+}
+#nav-list
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list a
+{
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+}
+#nav-list a:hover
+{
+	background: #765;
+}
+#nav-list a span
+{
+	font-size: 1.2em;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar
+{
+	border: 1.2px solid #000;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -20px;
+}
+#nav-list
+{
+	background: #187222;
+}
+ #collapsable-nav a {
+font-size: 1.2em;
+}
+#collapsable-nav a span {
+font-size: 1em;
+margin-right:5px;
+}
+				
+.container{
+width:100%;
+position:relative;
+}
+section{
+	overflow:auto;
+}
+#p1{
+border:5px solid #000;
+margin-bottom:10px;
+height:650px;
+overflow:auto;
+background-color: #EE4433;
+font-family: 'Oxygen', sans-serif;				
+position:relative;
+}
+#p2{
+border:5px solid #000;
+margin-bottom:10px;
+height:650px;
+overflow:auto;
+background-color:#123456;
+font-family: 'Oxygen', sans-serif;
+position: relative;
+}
+#p3{
+border:5px solid #000;
+margin-bottom:10px;
+height:650px;
+overflow:auto;
+background-color: #AB567F;
+font-family: 'Oxygen', sans-serif;
+position:relative;
+}
+#r1,#r2,#r3{
+margin-top:1px;
+margin-bottom:1px
+height:20px;
+overflow:auto;
+background-color: none;
+/*position: absolute;*/
+top:0;
+}/*
+#r2{
+margin-top:1px;
+margin-bottom:1px
+height:20px;
+overflow:auto;
+background-color: none;
+top:0;
+}
+#r3 {
+margin-top:1px;
+margin-bottom:1px;
+overflow:auto;
+background-color: none;
+top:0;
+}	*/
+
+@media (min-width: 700px)
+{
+	p
+	{
+		font-size: 38px;
+	}
+	h2
+	{
+		font-size: 45px; 
+	}
+}
